@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>File Metadata Microservice</title>
+</head>
+<body>
+  <header>
+    <h1>File Metadata Microservice</h1>
+  </header>
+
+  <main>
+    <h3>Please upload a file:</h3>
+    <form action="http://localhost:9000/file" method="post" enctype="multipart/form-data">
+      <fieldset>
+        <input type="file" name ="upfile"><br>
+        <input type="submit" value="Upload">
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    By <a>Xu Quan</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  background: #59B5CE;
+}
+
+h1 {
+	font-size: 40px;
+	margin:100px auto 60px;
+	text-align: center;
+}
+
+main {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 800px;
+	height: 300px;
+	margin: auto;
+	padding: 30px;
+	box-sizing: border-box;
+	background: #fff;
+}
+
+main h3 {
+	text-align: center;
+	margin: 40px auto 30px;
+	font-size: 23px;
+}
+
+main fieldset {
+	height: 100px;
+	width: 85%;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 25px 70px;
+}
+
+main fieldset input[type="file"] {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+main fieldset input[type="submit"] {
+	width: 240px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+}
+
+footer {
+	position: fixed;
+	bottom: 50px;
+	line-height: 20px;
+	font-size: 15px;
+	width: 100px;
+	left: 50%;
+	margin-left: -50px;
+}
